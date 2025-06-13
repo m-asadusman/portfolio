@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+body{
+    background-color: #111111;
+}
+
+header{
+    height: 50px;
+    width: 390px;
+    margin: 20px auto;
+    margin-bottom: 80px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+}
+
+header a{
+    text-decoration: none;
+    color: #e3ddd3;
+    font-size: 15px;
+    transition: 0.3s color;
+}
+
+header a:hover{
+    color: #dbc0ee;
+}
+
+.hireMe{
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.18);
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-size: 15px;
+    color: #e3ddd3;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: 0.3s color;
+    cursor: pointer;
+}
+
+.hireMe:hover{
+    color: #dbc0ee;
+}
+
+
+main{
+    margin: 0 auto;
+    padding: 0 10%;
+    width: 80%; 
+    color: #e3ddd3;
+}
+
+.home, .projects, .socials{
+    margin-bottom: 50px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.proj, .soc{
+    font-size: 30px; 
+    display: flex; 
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.carousel-inner{
+    border-radius: 20px;
+}
+
+.socials i{
+    font-size: 40px;
+    transition: color 0.3s ;
+}
+
+.socials i:hover{
+    color: #dbc0ee;
+}
+
+@media screen and (max-width: 768px) {
+
+    body{
+        font-size: 14px;
+    }
+
+    main{
+        padding: 0 5%;
+    }
+
+    .home img{
+        height: 90%;
+        width: 90%;
+    }
+
+    .name, .proj, .soc{
+        font-size: 23px;
+    }
+
+    .socials i{
+        font-size: 30px;
+    }
+}
