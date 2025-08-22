@@ -110,6 +110,15 @@ main{
         padding: 0 5%;
     }
 
+    header {
+        width: 320px;
+        gap: 15px;
+    }
+
+    header a{
+    font-size: 14px;
+    }
+
     .home img{
         height: 90%;
         width: 90%;
@@ -121,5 +130,9 @@ main{
 
     .socials i{
         font-size: 30px;
+    }
+
+    .hireMe{
+        font-size: 14px;
     }
 }
