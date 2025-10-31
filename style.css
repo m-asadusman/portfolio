@@ -58,6 +58,7 @@ header a:hover{
     bottom: 20px;
     transition: 0.3s color;
     cursor: pointer;
+    z-index: 100;
 }
 
 .hireMe:hover{
@@ -125,6 +126,7 @@ main{
     header {
         width: 320px;
         gap: 15px;
+        margin-bottom: 40px;
     }
 
     header a{
@@ -155,7 +157,12 @@ main{
 }
 
 @media screen and (max-width: 480px) {
+    header{
+        margin-bottom: 20px;
+    }
+
     .carousel-item img{
         height: 200px;
     }
 }
+
