@@ -14,8 +14,7 @@ export default function Hero() {
 
         <div className="hero__row">
           <p className="hero__bio">
-            I'm a Frontend Developer specializing in React.js, focused on building modern, responsive, and user-friendly web applications. 
-            I enjoy turning ideas into interactive digital experiences with clean code and thoughtful design.
+            Frontend Developer specializing in React, focused on turning ideas into polished, scalable web applications.
           </p>
 
           <div className="hero__meta">
