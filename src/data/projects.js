@@ -10,8 +10,8 @@ const projects = [
     title: "Shopverse",
     role: "Frontend Development",
     description:
-      "A modern e-commerce application featuring product browsing, shopping cart functionality, and a responsive shopping experience.",
-    tags: ["React", "Firebase", "Redux", "JavaScript", "CSS"],
+      "A modern e-commerce platform featuring user authentication, user profiles, a persistent shopping cart, order history, and an admin dashboard for complete product management.",
+    tags: ["React", "Redux Toolkit", "Firebase", "JavaScript", "CSS"],
     image: img1,
     link: "https://shopverse-silk.vercel.app/",
   },
@@ -21,8 +21,8 @@ const projects = [
     title: "Flix",
     role: "Frontend Development",
     description:
-      "A movie discovery application that allows users to explore trending movies, search titles, watch trailers, and view detailed movie information using an external API.",
-    tags: ["React", "Tailwind", "TMDB API", "React Router", "JavaScript"],
+      "A movie discovery application that allows users to explore trending movies, search titles, watch trailers, and view detailed movie information using an TMDB API.",
+    tags: ["React", "React Router", "TMDB API", "Tailwind", "JavaScript"],
     image: img2,
     link: "https://flix-eta.vercel.app/",
   },
@@ -32,8 +32,8 @@ const projects = [
     title: "Gitscope",
     role: "Frontend Development",
     description:
-      "A GitHub profile explorer that fetches user information and top repositories through the GitHub API.",
-    tags: ["React", "Github API", "RestAPI", "JavaScript", "CSS"],
+      "A GitHub profile explorer that displays user information and top repositories through the GitHub API.",
+    tags: ["React", "GitHub API", "REST API", "JavaScript", "CSS"],
     image: img3,
     link: "https://gitscope-lovat.vercel.app/",
   },
@@ -43,8 +43,8 @@ const projects = [
     title: "FocusList",
     role: "Frontend Development",
     description:
-      "A simple and responsive task management application with features for creating, updating, completing, and managing tasks.",
-    tags: ["React", "JavaScript", "CSS", "Local Storage"],
+      "A simple task management application for creating, updating, completing, and organizing daily tasks with local data persistence.",
+    tags: ["React", "JavaScript", "Local Storage", "CSS"],
     image: img4,
     link: "https://focuslist-one.vercel.app/",
   },
