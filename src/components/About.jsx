@@ -1,8 +1,8 @@
 import "./About.css";
 
 const SKILLS = [
-  "React", "Tailwind", "JavaScript", "HTML", "CSS", "REST APIs",
-  "React Router", "Firebase", "Git", "Github"
+  "React", "Tailwind", "JavaScript", "HTML5", "CSS3", "Redux Toolkit",
+  "React Router", "Firebase", "REST APIs", "Vite", "Git", "GitHub"
 ];
 
 export default function About() {
